@@ -1,0 +1,42 @@
+Wprowadzenie:
+Aplikacja Banku to system umożliwiający wykonywanie podstawowych operacji bankowych.
+Aplikacja pozwala na zarządzanie, tworzenie oraz usuwanie nowych kont bankowych, wpłacanie pieniędzy, oraz wyświetlania danych.
+
+Instalacja:
+Należy pobrać pliki aplikacji z repozytorium.
+Po pobraniu plików można uruchomić aplikację poprzez plik 'run.py'.
+
+Użytkowanie:
+Po uruchomienu automatycznie zostaje utworzone jedno konto, lecz użytkownik poprzez menu nawigacyjne może odrazu stworzyć inne konto i zarządzać nim.
+Po wybraniu poszczególnych opcji można zarządzać kontem bankowym, menu daje możliwość:
+- Podglądu danych klienta oraz stanu konta
+- Dodawanie nowych klientów
+- Usuwanie klientów razem z ich kontami ze zbioru wszystkich użytkowników banku
+- Wpłacanie pieniędzy na konto
+- Zakończenie komunikacji z bankiem
+wypłacanie pieniędzy z bankomatu
+przeglądanie historii transakcji
+
+Przeglądanie stanu i danych konta:
+Aby wyświetlić aktualny stan konta oraz dane o jego właścicielu, użytkownik powinien wybrać opcję "Wyświetl dane klienta" z menu.
+Po wprowadzeniu poprawnych danych, użytkownik zobaczy dane o koncie, jeśli zostaną podane błędne dane to użytkownik zostanie o tym poinformowany poprzez komunikat.
+
+Dodawanie klienta:
+Aby dodać klienta, użytkownik powinien wybrać opcję "Dodaj klienta" z menu.
+Po wprowadzeniu poprawnych danych nowego klienta, użytkownik zobaczy informację potwierdzającą utworzenie konta.
+
+Usuwanie klienta:
+Aby usunąć klienta wraz z kontem, użytkownik powinien wybrać opcję "Usuń klienta" z menu.
+Po wprowadzeniu poprawnych danych klienta, użytkownik zobaczy informację potwierdzającą usunięcie konta wraz z klientem.
+W przypadku podania błędnych danych, zostanie pokazany komunikat.
+
+Dodawanie środków:
+Aby dodać środki na konto, użytkownik powinien wybrać opcję "Dodaj środki na konto" z menu.
+Po wprowadzeniu poprawnych danych właściciela konta oraz sumy którą chcemy dodać, użytkownik zobaczy informację potwierdzającą. 
+W przypadku podania błędnych danych, zostanie pokazany komunikat.
+
+Zakończenie operacji bankowych:
+Po wykonaniu operacji które chcieliśmy wykonać, można zakończyć komunikację z bankiem poprzez wybranie opcji "Zakończ".
+
+Podsumowanie:
+Aplikacja Bank w języku Python umożliwia łatwe zarządzanie kontami bankowymi. System pozwala na wykonywanie podstawowych operacji bankowych, aplikacja jest intuicyjna i łatwa w obsłudze.
